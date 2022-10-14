@@ -34,3 +34,13 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo $PATH
+          node -v
+          npm -v
+          java -version
+          python --version
+          go version
+          mvn -version
+          docker version
+          docker-compose -v
+          git version
